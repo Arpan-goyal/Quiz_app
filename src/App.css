@@ -1,0 +1,51 @@
+.app {
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Menu, .quiz, .endScreen{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Menu button, .quiz button ,.options button, .endScreen button{
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  
+  .menu, .quiz, .endScreen{
+    color: white;
+  }
+  .quiz{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .options{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .endScreen{
+    display: flex;
+    flex-direction: column;
+
+  }
